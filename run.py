@@ -1,7 +1,7 @@
 import os
 from face.face_emotion import emotion_detect
 
-#som self init
+#some self init
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2' #to avoid tensorflow bullsh!t warnings
 
 

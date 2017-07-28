@@ -5,10 +5,6 @@ Created on Wed Jul  5 22:36:16 2017
 
 @author: root
 """
-
-import speech_recognition as sr
-import pyttsx3
-import pyaudio
 import nltk
 import numpy as np
 # restore all of our data structures
@@ -102,26 +98,9 @@ def response(sentence, userID='123', show_details=False):
                         # a random response from the intent
                         return(random.choice(i['responses']))
 
-'''def all_ears():
- 
-    r = sr.Recognizer()
-    with sr.Microphone() as src:
-     	audio = r.listen(src)
-    msg = ''
-    try:
-        msg = r.recognize_google(audio) 
-    #print(msg.lower())
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-    except sr.RequestError as e:
-        print("Could not request results from Google STT; {0}".format(e))
-    except:
-        print("Unknown exception occurred!")
-    finally:
-        return msg.lower()  '''                  
+                 
 def main():
-    #engine=pyttsx3.init()
-    #message =all_ears()
+    
 
     while(1):
       message=input("You:")
@@ -132,9 +111,7 @@ def main():
       if (category[0] =='goodbye'):
           break
       
-    #print(message.lower())
-    #engine.say(response(message))
-    #engine.runAndWait()
+    
     
 
 if __name__== '__main__':                      

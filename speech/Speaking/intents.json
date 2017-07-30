@@ -1,0 +1,25 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hii", "How are you","Nice to meet you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you..", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+	{"tag": "identity",
+         "patterns": ["Hey,what's your name?","Who are you?"],
+         "responses": ["I'm Alice"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Great job","That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "instructions",
+         "patterns": ["Sit down", "Stand up", "Go left","Go right","Go forward","Go Back","Walk","Run"],
+         "responses": ["Aye aye captain","Okay","I'm on it","Roger that"]
+        }
+        ]
+}
+

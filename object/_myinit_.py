@@ -31,8 +31,8 @@ if PY3:
 sys.path.append("..")
 from utils import label_map_util
 from utils import visualization_utils as vis_util
-
-PATH_TO_CKPT='E:/computerscience/my_projects/humanoid/tensor_flow/ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb'
+#GIVE THE PATH TO SSD_MOBILENET_V1_COCO_11_06_2017/FROZEN_GRAPH
+PATH_TO_CKPT='ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb'
 PATH_TO_LABELS = os.path.join('data', 'mscoco_label_map.pbtxt')
 NUM_CLASSES = 90
 IMAGE_SIZE = (12, 8)

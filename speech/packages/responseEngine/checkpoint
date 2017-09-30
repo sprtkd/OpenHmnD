@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:/Projects II/speech/responseEngine/model.tflearn"
+all_model_checkpoint_paths: "F:/Projects II/speech/responseEngine/model.tflearn"
